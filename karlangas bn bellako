@@ -1,12 +1,12 @@
 create table cliente( 
-    rut_cliente         number(11) not null, 
-    dv                  CHAR(11)not null, 
-    primer_nombre       varchar2(250) not null, 
-    segundo_nombre      varchar2(250) 
-    primer_apellido     varchar2(250)not null, 
-    segundo_apellido    varchar2(250) 
-    direccion           varchar2(250)not null, 
-    fono                number not null 
-    correo              varchar2(250)not null, 
-    comuna_id           number 
+    rut_cliente         NUMBER(11) NOT NULL, 
+    dv                  CHAR(11) NOT NULL, 
+    primer_nombre       VARCHAR2(250) NOT NULL, 
+    segundo_nombre      VARCHAR2(250) 
+    primer_apellido     VARCHAR2(250) NOT NULL, 
+    segundo_apellido    VARCHAR2(250) 
+    direccion           VARCHAR2(250) NOT NULL, 
+    fono                NUMBER NOT NULL, 
+    correo              VARCHAR(250) NOT NULL, 
+    comuna_id           NUMBER 
 )
